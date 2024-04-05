@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/scss/index.scss"> 
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Feed</h1>
+        <div class="row mt-5 mb-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class="col-md-6">
+                <select class="form-select">
+                    <option selected>Sort By</option>
+                    <option value="1">Newest</option>
+                    <option value="2">Oldest</option>
+                    <option value="3">Most Popular</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest1.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 1</h5>
+                        <p class="card-text">Lost in the whispers of the forest 🌲 There's something magical about hiking through towering trees and breathing in the crisp forest air. #NatureLover #HikingAdventures </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest2.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 2</h5>
+                        <p class="card-text">Step by step, trail by trail, uncovering the secrets of the woodland 🍃 Each hike brings new discoveries and a deeper connection to nature. #ForestExploration #HikingLife</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest3.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 3</h5>
+                        <p class="card-text">Escape the chaos and find solace in the tranquility of the forest 🌿 Let the rustle of leaves and the chirping of birds guide your path. #NatureEscape #ForestHike</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest4.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 4</h5>
+                        <p class="card-text">Embracing the challenge, embracing the beauty 🏞️ Hiking through the forest teaches us resilience and fills our souls with awe-inspiring landscapes. #ForestTrail #OutdoorAdventure</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="row mb-5">
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Write your post" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Post</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
