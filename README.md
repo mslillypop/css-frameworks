@@ -1,2 +1,5 @@
 # css-frameworks-ca
-Replace this text with a description of your social media project.
+Social Media app for CSS Frameworks CA
+index/login page
+feed page
+profile page
