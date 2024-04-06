@@ -1,0 +1,59 @@
+// Variables
+$body-bg-color: #f8f9fa;
+$font-stack: Arial, sans-serif;
+$container-max-width: 400px; 
+$container-margin: 100px auto; 
+$container-padding: 30px;
+$container-border-radius: 10px;
+$container-bg-color: #fff;
+$container-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+$h1-color: #333;
+$form-control-border-radius: 20px;
+$form-control-border-color: #ddd;
+$btn-primary-border-radius: 20px;
+$btn-primary-bg-color: #007bff;
+$btn-primary-border-color: #007bff;
+$btn-primary-hover-bg-color: #0056b3;
+$btn-primary-hover-border-color: #0056b3;
+
+body {
+    background-color: $body-bg-color;
+    font-family: $font-stack;
+}
+
+.container {
+    max-width: $container-max-width;
+    margin: $container-margin;
+    padding: $container-padding;
+    border-radius: $container-border-radius;
+    background-color: $container-bg-color;
+    box-shadow: $container-box-shadow;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: $container-padding;
+    color: $h1-color;
+}
+
+.form-control {
+    border-radius: $form-control-border-radius;
+    border-color: $form-control-border-color;
+}
+
+.btn-primary {
+    border-radius: $btn-primary-border-radius;
+    background-color: $btn-primary-bg-color;
+    border-color: $btn-primary-border-color;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: $btn-primary-hover-bg-color;
+        border-color: $btn-primary-hover-border-color;
+    }
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: $container-padding;
+}
