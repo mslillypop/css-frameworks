@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrekTribe Feed</title>
+    <base href="/">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/assets/trektribe-logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/feed/">Feed</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/profile/">Profile</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Feed</h1>
+        <div class="row mt-5 mb-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class="col-md-6">
+                <select class="form-select">
+                    <option selected>Sort By</option>
+                    <option value="1">Newest</option>
+                    <option value="2">Oldest</option>
+                    <option value="3">Most Popular</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest1.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 1</h5>
+                        <p class="card-text">Lost in the whispers of the forest 🌲 There's something magical about hiking through towering trees and breathing in the crisp forest air. #NatureLover #HikingAdventures </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest2.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 2</h5>
+                        <p class="card-text">Step by step, trail by trail, uncovering the secrets of the woodland 🍃 Each hike brings new discoveries and a deeper connection to nature. #ForestExploration #HikingLife</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest3.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 3</h5>
+                        <p class="card-text">Escape the chaos and find solace in the tranquility of the forest 🌿 Let the rustle of leaves and the chirping of birds guide your path. #NatureEscape #ForestHike
+                            #ForestExploration
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/forest4.png" class="card-img-top" alt="Person wearing a backpack walking away from the camera in a forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 4</h5>
+                        <p class="card-text">Embracing the challenge, embracing the beauty 🏞️ Hiking through the forest teaches us resilience and fills our souls with awe-inspiring landscapes. #ForestTrail #OutdoorAdventure</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="row mb-5">
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Write your post" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Post</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
